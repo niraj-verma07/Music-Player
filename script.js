@@ -1,15 +1,15 @@
 var arr = [
-    { songName: "Bezubaan(Phir se)", url: "./Songs/Bezubaan.m4a", img: "./Images/Bezubaan.jpg" },
+    { songName: "Bezubaan(Phir se)", url: "./Songs/Bezubaan.m4a", img: "./Images/Bezubaan.jpg", time: "2:32" },
     
-    { songName: "Chunar", url: "./Songs/Chunar.m4a", img: "./Images/Bezubaan.jpg" },
+    { songName: "Chunar", url: "./Songs/Chunar.m4a", img: "./Images/Bezubaan.jpg", time: "2:50"},
 
-    { songName: "Hamari Adhuri Kahani", url: "./Songs/Hamari.m4a", img: "./Images/Hamari.jpg" },
+    { songName: "Hamari Adhuri Kahani", url: "./Songs/Hamari.m4a", img: "./Images/Hamari.jpg", time: "2:12" },
 
-    { songName: "Lambiyan Jhudaiyan", url: "./Songs/Lambiya.m4a", img: "./Images/Shersah.jpg" },
+    { songName: "Lambiyan Jhudaiyan", url: "./Songs/Lambiya.m4a", img: "./Images/Shersah.jpg", time: "2:52" },
 
-    { songName: "Millionaire", url: "./Songs/Millionaire.m4a", img: "./Images/Millionaire.jpg" },
+    { songName: "Millionaire", url: "./Songs/Millionaire.m4a", img: "./Images/Millionaire.jpg", time: "2:38" },
 
-    { songName: "Ranjha", url: "./Songs/Ranjha.m4a", img: "./Images/Shersah.jpg" },
+    { songName: "Ranjha", url: "./Songs/Ranjha.m4a", img: "./Images/Shersah.jpg", time: "2:36" },
    
 ]
 
@@ -35,7 +35,7 @@ function mainFunction() {
         <img src=${elem.img} alt="">
         <h2>${elem.songName}</h2>
     </div>
-    <h6>3:56</h6>
+    <h6>${elem.time}</h6>
 </div>`
     })
     allSongs.innerHTML = clutter
