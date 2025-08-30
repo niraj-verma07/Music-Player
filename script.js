@@ -1,7 +1,7 @@
 var arr = [
     { songName: "Bezubaan(Phir se)", url: "./Songs/Bezubaan.m4a", img: "./Images/Bezubaan.jpg" },
     
-    { songName: "Chunar", url: "./Songs/chunar.m4a", img: "./Images/Bezubaan.jpg" },
+    { songName: "Chunar", url: "./Songs/Chunar.m4a", img: "./Images/Bezubaan.jpg" },
 
     { songName: "Hamari Adhuri Kahani", url: "./Songs/Hamari.m4a", img: "./Images/Hamari.jpg" },
 
